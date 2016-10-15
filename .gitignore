@@ -1,0 +1,12 @@
+/.mc-lists.el
+/.cask
+/ac-comphist.dat
+/auto-save-list
+/backups
+/elpa
+/history
+/projectile-bookmarks.eld
+/tramp
+/undohist
+/var
+*~
