@@ -138,9 +138,9 @@
 (depends-on "import-popwin")
 
 ;;;; go-mode
-(depends-on "go-eldoc")
-(depends-on "helm-godoc" :git "https://github.com/syohex/emacs-helm-godoc.git")
-(depends-on "golint")
+;;(depends-on "go-eldoc")
+;; (depends-on "helm-godoc" :git "https://github.com/syohex/emacs-helm-godoc.git")
+;;(depends-on "golint")
 
 ;;;; helm
 (depends-on "helm-swoop")
@@ -162,7 +162,7 @@
 (depends-on "mozc")
 
 ;; own repository
-(depends-on "editutil" :git "https://github.com/syohex/emacs-editutil.git")
+;; (depends-on "editutil" :git "https://github.com/syohex/emacs-editutil.git")
 (depends-on "eshellutil" :git "https://github.com/syohex/emacs-eshellutil.git")
 (depends-on "syohex-theme" :git "https://github.com/syohex/emacs-syohex-theme.git")
 

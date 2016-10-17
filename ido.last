@@ -2,46 +2,78 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/vagrant/Projects/okr/okr-frontend/app/components/" . "Dashboard/")
+ ("/home/vagrant/Projects/okr/okr-frontend/app/" . "components/")
+ ("/home/vagrant/Projects/okr/okr-frontend/" . "app/")
+ ("/home/vagrant/Projects/okr/" . "okr-frontend/")
  ("/home/vagrant/Projects/stock_monitor/app/" . "models/")
  ("/home/vagrant/Projects/stock_monitor/" . "app/")
- ("/home/vagrant/Projects/" . "stock_monitor/")
+ ("/home/vagrant/Projects/" . "okr/")
  ("/home/vagrant/" . "Projects/")
  ("/home/vagrant/.emacs.d/" . "init.d/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/vagrant/Projects/okr/okr-frontend/app/"
+ "/home/vagrant/.emacs.d/"
+ "/home/vagrant/"
+ "/home/vagrant/Projects/okr/okr-frontend/app/components/Dashboard/"
+ "/home/vagrant/.emacs.d/init.d/"
+ "/home/vagrant/Projects/okr/okr-frontend/app/constants/"
  "/home/vagrant/Projects/stock_monitor/"
  "/home/vagrant/Projects/stock_monitor/app/models/"
- "/home/vagrant/.emacs.d/"
- "/home/vagrant/.emacs.d/init.d/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "Gemfile"
- "item.rb"
- "docker-compose-local.yml"
- "init.el"
- "init-fonts.el"
+ "App.jsx"
  "Cask"
+ ".emacs"
+ "Dashboard.jsx"
+ "init-global-configs.el"
+ "init-auto-complete.el"
+ "init-programming-settings.el"
+ "init.el"
+ "Global.jsx"
+ "init-js.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/usr/local/share/info/" (22530 26816 504657 239000) "bovine.info.gz" "emacs-mime.info.gz" "rcirc.info.gz" "octave-mode.info.gz" "calc.info.gz" "viper.info.gz" "./" "widget.info.gz" "url.info.gz" "edt.info.gz" "gnus.info.gz" "vip.info.gz" "info.info.gz" "ediff.info.gz" "ccmode.info.gz" "efaq.info.gz" "smtpmail.info.gz" "semantic.info.gz" "sc.info.gz" "dired-x.info.gz" "ido.info.gz" "remember.info.gz" "woman.info.gz" "reftex.info.gz" "mairix-el.info.gz" "nxml-mode.info.gz" "dir" "sasl.info.gz" "sieve.info.gz" "idlwave.info.gz" "dbus.info.gz" "pgg.info.gz" "message.info.gz" "pcl-cvs.info.gz" "srecode.info.gz" "org.info.gz" "eieio.info.gz" "eshell.info.gz" "ebrowse.info.gz" "emacs-gnutls.info.gz" "epa.info.gz" "eww.info.gz" "autotype.info.gz" "mh-e.info.gz" "ada-mode.info.gz" "eudc.info.gz" "../" "erc.info.gz" "newsticker.info.gz" "tramp.info.gz" "forms.info.gz" "flymake.info.gz" "wisent.info.gz" "cl.info.gz" "todo-mode.info.gz" "htmlfontify.info.gz" "emacs.info.gz" "elisp.info.gz" "ede.info.gz" "ses.info.gz" "speedbar.info.gz" "ert.info.gz" "auth.info.gz" "eintr.info.gz")
+
+ ("/home/vagrant/.emacs.d/init.d/" (22530 57278 210617 595000) "init-packages.el" "init-programming-contest.el" "init-haml.el" "./" "init-cc.el" "init-programming-settings.el" "init-auto-complete.el" "init-ruby.el" "init-tabbar.el" "init-tex.el" "init-css.el" "init-sh.el" "init-face.el" "init-elixir.el" "init-js.el" "init-helm.el" "../" "init-global-configs.el" "init-fonts.el")
+
+ ("/home/vagrant/.emacs.d/" (22530 57904 717207 854000) "./" ".cask/" ".git/" ".gitignore" "var/" "ac-comphist.dat" "places" "README.md" "history" "projectile-bookmarks.eld" "Cask" "init.el" "../" "ido.last" "init.d/" "auto-save-list/")
+
+ ("/home/vagrant/.emacs.d/.cask/24.4/" (22530 27024 936386 463000) "./" "elpa/" "bootstrap/" "../")
+
+ ("/home/vagrant/.emacs.d/.cask/24.4/bootstrap/" (22530 26966 329705 526000) "git-20140128.241/" "commander-20140120.1052/" "./" "dash-20160820.501/" "shut-up-20150423.522/" "package-build-20161014.2251/" "archives/" "gnupg/" "f-20161002.800/" "s-20160928.636/" "epl-20150517.433/" "../")
+
+ ("/home/vagrant/Projects/okr/okr-frontend/app/components/Dashboard/" (22530 53950 138489 626000) "./" "Dashboard.run.js" "Dashboard.jsx" "../")
+
+ ("/home/vagrant/Projects/okr/okr-frontend/app/components/" (22530 27329 496026 405000) "Tables/" "Translate/" "Forms/" "./" "Bootstrap/" "Core/" "Pages/" "Header/" "Maps/" "Dashboard/" "Colors/" "FloatButton/" "Settings/" "Charts/" "Sidebar/" "Utils/" "../" "Cards/" "Layouts/" "Ripple/" "Common/" "Elements/" "User/")
+
+ ("/home/vagrant/Projects/okr/okr-frontend/app/constants/" (22530 53950 138489 626000) "./" "Global.jsx" "../")
+
+ ("/home/vagrant/Projects/okr/okr-frontend/app/" (22530 53950 138489 626000) "img/" "./" "server/" "index.html" "Store.jsx" "actions/" "Reducer.jsx" "constants/" "App.jsx" "fonts/" "Vendor.jsx" "../" "components/" "reducers/")
+
+ ("/home/vagrant/Projects/okr/okr-frontend/" (22530 54217 712205 909000) "webpack.prod.js" "webpack.dev.js" "npm-debug.log" "docs/" "app/" "./" ".eslintrc" "node_modules/" "README.rdoc" ".git/" ".gitignore" "webpack.common.js" "bower_components/" "bower.json" "Dockerfile" "circle.yml" "base/" "../" "package.json")
+
+ ("/home/vagrant/Projects/okr/" (22530 27412 974265 427000) "./" "../" "okr-frontend/")
+
+ ("/home/vagrant/Projects/" (22530 27412 974265 427000) "./" "../" "okr/")
+
+ ("/home/vagrant/.emacs.d/.cask/" (22530 26952 936405 386000) "./" "24.4/" "../")
+
+ ("/home/vagrant/" (22530 54676 245351 808000) ".bashrc" ".install_cask" "./" ".ssh/" ".bash_logout" ".cask/" ".emacs" ".profile" ".emacs.d/" ".npm/" ".local/" "Projects/" ".rbenv/" ".bash_history" ".cache/" "../" ".gnupg/" ".config/" ".byobu/")
+
  ("/home/vagrant/Projects/stock_monitor/" (22530 14437 914012 565000) "app/" "./" "docker-compose-sg.yml" "spec/" "README.rdoc" ".git/" "docker-compose-local.yml" "raunch-production.sh" "docker-compose-staging.yml" "Guardfile" "restore" ".gitignore" "server.csr" ".dockerignore" "tmp/" "raunch-staging.sh" "migrate_production.sh" "test/" "public/" "config/" "config.ru" "vendor/" ".ruby-version" ".rspec" "server.crt" "Procfile.dev" "docker-compose.yml" ".buildpacks" "rancher-compose-staging.yml" "Dockerfile" "docker-compose-production.yml" "lib/" "log/" "Gemfile.lock" "Procfile" "server.key" "circle.yml" "../" "rancher-compose-production.yml" "bin/" "Dockerfile.dev" "Gemfile" "Rakefile" "db/" "docker-compose-common.yml")
 
  ("/home/vagrant/Projects/stock_monitor/app/models/" (22529 61737 343870 162000) "shop.rb" "./" "stock_setting.rb" "temp_zaiko.rb" "zr_order.rb" "stock.rb" "monthly_profit.rb" "zr_order_summary.rb" "stock_system.rb" "item.rb" "yahoo_shop.rb" "crooz_shop.rb" "kiba_runner.rb" "sku.rb" "stock_admin.rb" "netsea_shop.rb" "zr_robot.rb" "slack_sender.rb" "dena_shop.rb" "concerns/" "product.rb" "rakuten_shop.rb" "../" ".keep" "order_detail.rb" "order.rb" "zaiko.rb" "jc_shop.rb")
 
  ("/home/vagrant/Projects/stock_monitor/app/" (22529 61737 343870 162000) "assets/" "etls/" "./" "fields/" "views/" "dashboards/" "controllers/" "mailers/" "../" "helpers/" "models/" "workers/")
-
- ("/home/vagrant/Projects/" (22529 61672 59872 532000) "./" "test_app/" "stock_monitor/" "../")
-
- ("/home/vagrant/" (22529 60810 119903 823000) ".bashrc" "./" ".ssh/" ".bash_logout" ".cask/" ".emacs" ".node_repl_history" ".bashrc~" ".profile" ".gem/" ".emacs.d/" "Projects/" ".rbenv/" ".bash_history" ".bundle/" ".cache/" "../" ".gnupg/" ".byobu/")
-
- ("/home/vagrant/.emacs.d/" (22529 60007 279932 969000) "./" ".cask/" ".git/" ".gitignore" "places" "README.md" "history" "projectile-bookmarks.eld" "Cask" "init.el" "../" "ido.last" "init.d/" "auto-save-list/")
-
- ("/home/vagrant/.emacs.d/init.d/" (22529 59236 911960 936000) "init-packages.el" "init-programming-contest.el" "init-haml.el" "./" "init-cc.el" "init-programming-settings.el" "init-auto-complete.el" "init-ruby.el" "init-tabbar.el" "init-tex.el" "init-css.el" "init-sh.el" "init-face.el" "init-elixir.el" "init-js.el" "init-helm.el" "../" "init-global-configs.el" "init-fonts.el")
 )
 
 ;; ----- ido-unc-hosts-cache -----

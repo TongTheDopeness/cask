@@ -97,7 +97,7 @@
             (setq recentf-max-saved-items 1000000)
             (setq recentf-max-menu-items 500)
             (setq recentf-exclude '("\.ido\.hist" "\.ido\.last" "xhtml-loader\.rnc" "elpa\/"))
-
+	    
             (when (require 'undo-tree nil t)
               (global-undo-tree-mode t)
               (define-key undo-tree-map (kbd "s-Z") 'undo-tree-redo))

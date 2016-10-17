@@ -5,6 +5,9 @@
 
 (add-to-list 'load-path "~/.emacs.d/init.d/")
 
+(require 'init-global-configs)
+(require 'init-programming-settings)
+
 (windmove-default-keybindings)
 
 (global-set-key (kbd "C-c C-g C-j") 'buf-move-left)
@@ -24,11 +27,12 @@
 (global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
 (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
 
-(require 'init-global-configs)
+
+
 ;; (require 'init-fonts)
 
 ;; (require 'init-face)
-(require 'init-programming-settings)
+
 
 ;; theme
 ;; (load-theme 'zenburn t)
