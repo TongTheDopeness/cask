@@ -16,12 +16,12 @@
 ;;(flycheck-add-mode 'javascript-eslint 'js2-jsx-mode)
 ;;(add-hook 'js2-jsx-mode-hook 'flycheck-mode)
 
-(add-hook 'js2-mode-hook
-          (lambda ()
-            (tern-mode t)))
-(add-hook 'js2x-mode-hook
-          (lambda ()
-            (tern-mode t)))
+;; (add-hook 'js2-mode-hook
+;;           (lambda ()
+;;             (tern-mode t)))
+;; (add-hook 'js2x-mode-hook
+;;           (lambda ()
+;;             (tern-mode t)))
 
 (add-hook 'js2-mode-hook
           (lambda ()
@@ -40,10 +40,10 @@
             (setq js2-basic-offset 2)))
 
 
-(eval-after-load 'tern
-   '(progn
-      (require 'tern-auto-complete)
-      (tern-ac-setup)))
+;; (eval-after-load 'tern
+;;    '(progn
+;;       (require 'tern-auto-complete)
+;;       (tern-ac-setup)))
 
 
 (provide 'init-js)

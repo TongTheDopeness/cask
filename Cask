@@ -182,5 +182,5 @@
 
 ;; js
 (depends-on "js2-mode")
-(depends-on "tern")
-(depends-on "tern-auto-complete")
+;; (depends-on "tern")
+;;(depends-on "tern-auto-complete")
