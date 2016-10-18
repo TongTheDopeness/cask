@@ -170,6 +170,7 @@
 (depends-on "zenburn-theme")
 (depends-on "cyberpunk-theme")
 (depends-on "clues-theme")
+(depends-on "monokai-theme")
 
 ;; projectile
 (depends-on "projectile")

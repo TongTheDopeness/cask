@@ -35,8 +35,9 @@
 
 
 ;; theme
-;; (load-theme 'zenburn t)
-(load-theme 'cyberpunk t)
+;;(load-theme 'zenburn t)
+;;(load-theme 'cyberpunk t)
+(load-theme 'monokai t)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
