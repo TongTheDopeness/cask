@@ -44,4 +44,7 @@
 (require 'projectile-rails)
 (add-hook 'projectile-mode-hook 'projectile-rails-on)
 
+(require 'web-mode)
+(add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
+
 (provide 'init-ruby)
